@@ -27,7 +27,19 @@
         "type": "integer"
       },
       "currency": {
-        "type": "string"
+        "type": "string",
+        "oneOf": [
+          {
+            "enum": [
+              "RUB"
+            ]
+          },
+          {
+            "enum": [
+              "USD"
+            ]
+          }
+        ]
       }
     }
   }
