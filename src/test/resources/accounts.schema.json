@@ -28,19 +28,12 @@
       },
       "currency": {
         "type": "string",
-        "oneOf": [
-          {
-            "enum": [
-              "RUB"
-            ]
-          },
-          {
-            "enum": [
-              "USD"
-            ]
-          }
+        "enum": [
+          "RUB",
+          "USD"
         ]
       }
     }
   }
 }
+
