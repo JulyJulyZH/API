@@ -33,7 +33,7 @@ class MobileBankApiTestV6 {
                 .then()
                 .statusCode(200)
                 .body(matchesJsonSchemaInClasspath("accounts.schema.json"))
-                .body("currency", hasItems("RUB", "USD"));
+                .body("currency", hasItems("RUB","USD"));
 
     }
 }
