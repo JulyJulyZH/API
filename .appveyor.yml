@@ -9,6 +9,7 @@ branches:
 build: off  # будем использовать свой скрипт сборки
 
 install:
+  - java
   - chmod +x gradlew &
 
 build_script:
